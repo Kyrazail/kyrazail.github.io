@@ -1,0 +1,129 @@
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+}
+
+button {
+    background-color: rgb();
+    border-radius: 5px;
+    border-width: 5px;
+    margin: 20px;
+    width: 200px;
+}
+
+body {
+    background-size: cover;
+    background-image: url(./image/test.jpg);
+    background-position: center;
+    background-color: black;
+}
+
+.part2 {
+    background-size: cover;
+    background-image: url(./image/guitareenfin.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.part {
+    background-size: cover;
+    background-image: url(./image/metallica2.jpg);
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.bas {
+    position: block;
+    color: black;
+
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 30%;
+    text-align: center;
+    background-color: #f0f8ff7d;
+    max-width: 40%;
+    border-radius: 20px
+}
+
+.main {
+    background-color: #f0f8ff7d;
+    margin: 0 auto;
+    max-width: 40%;
+    border-radius: 20px;
+}
+
+.text {
+    margin: 0 auto;
+    background-color: rgba(240, 248, 255, 0.673);
+    text-align: justify;
+    /* fait une marge avec le reste des elements extérieurs */
+    margin: 20px;
+    /* fait une marge, avec le restes des elements INTERIEURS */
+    padding: 20px;
+    /* fait des contours arrondis */
+    border-radius: 22px;
+}
+
+
+
+.retour {
+    margin: center;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.footer {
+    position: fixed;
+    bottom: 50px;
+    width: 100%;
+}
+
+.main3 {
+    background-color: #f0f8ff7d;
+    margin: 0 auto;
+    max-width: 30%;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 490px;
+    top: 580px;
+    height: 80px;
+    width: 60%;
+    text-align: center;
+}
+
+video {
+    text-align: center;
+    width: 30%;
+    margin: 15px;
+
+    border:5px solid rgb(237, 231, 231);
+    border-radius: 5px;
+
+    transition: all 0.25s ease-in-out;
+}
+
+video:hover {
+    border-radius: 25px;
+}
+
+.classFlex {
+    display: list-item;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+}
