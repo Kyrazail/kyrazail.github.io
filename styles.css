@@ -1,4 +1,3 @@
-
 body {
     height: 100vh;
     overflow-x: hidden;
@@ -26,9 +25,9 @@ body {
 
 .part2 {
     background-size: cover;
-    background-image: url(./image/guitareenfin.jpg);
+    background-image: url(./image/guitarefond.png);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .part {
@@ -45,8 +44,8 @@ body {
     bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    height: 150px;
-    width: 30%;
+    height: 200px;
+    width: 40%;
     text-align: center;
     background-color: #f0f8ff7d;
     max-width: 40%;
@@ -78,16 +77,31 @@ body {
     margin: center;
 }
 
-table,
-th,
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid rgb(16, 16, 16);
+  }
+th,td {
+    text-align: justify;    
+    padding: 10px;
+    border: 2px solid black;
+    
+    
+}
+
+th {
+    background-color: #3d16d8;
+}
+
 td {
-    text-align: center;
-    border: 1px solid black;
+    background-color: #d3cece;
 }
 
 .footer {
     position: fixed;
-    bottom: 50px;
+    bottom: 30px;
     width: 100%;
 }
 
@@ -109,8 +123,19 @@ video {
     width: 30%;
     margin: 15px;
 
-    border:5px solid rgb(237, 231, 231);
+    border: 5px solid rgb(237, 231, 231);
     border-radius: 5px;
+
+    transition: all 0.25s ease-in-out;
+}
+
+audio {
+    text-align: center;
+    width: 30%;
+    margin: 15px;
+
+    border: 5px solid rgb(237, 231, 231);
+    border-radius: 10px;
 
     transition: all 0.25s ease-in-out;
 }
@@ -119,11 +144,78 @@ video:hover {
     border-radius: 25px;
 }
 
+audio:hover {
+    border-radius: 35px;
+}
+
 .classFlex {
     display: list-item;
     text-align: center;
 }
 
 .table {
+    margin-left: 500px;
     text-align: center;
 }
+
+.tennis {
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+
+
+    border-radius: 400px;
+}
+.text2 {
+    text-align: center;
+}
+
+.bas3 {
+    position: block;
+    color: rgb(9, 8, 8);
+
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    text-align: justify;
+    background-color: #55575a7d;
+    max-width: 40%;
+    border-radius: 20px
+}
+
+.h2 {
+    text-align: center;
+}
+
+.bas4 {
+    position: block;
+    color: rgb(9, 8, 8);
+
+    bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+   height: 150px;
+   width: 390px;
+    text-align: justify;
+    background-color: #0a0b0b7d;
+    max-width: 40%;
+    border-radius: 20px
+}
+
+.text4 {
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+nav li{
+    background-color: rgb();
+    border-radius: 5px;
+    border-width: 5px;
+    margin: 20px;
+    width: 200px;  
+    
+    }
