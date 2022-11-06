@@ -229,4 +229,13 @@ nav li{
     color: #f2ebeb;
 }
 
+.main5 {
+    background-size: cover;
+    background-position: center;
+    background-image: url(./image/white.png);
+    background-repeat: repeat;
+    background-color: #fcfafa;
+    color: #060505;
+}
+
     
