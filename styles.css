@@ -219,11 +219,13 @@ nav li{
     width: 200px;  
  }
 
-.main4 {
+ .main4 {
     background-size: cover;
     background-position: center;
+    background-image: url(./image/black.png);
     background-repeat: repeat;
     background-color: #050505;
+    color: #f2ebeb;
 }
 
     
