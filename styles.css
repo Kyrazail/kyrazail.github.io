@@ -218,9 +218,10 @@ nav li{
     border-width: 5px;
     margin: 20px;
     width: 200px;  
- }
+    
+}
 
- .main4 {
+.main4 {
     background-size: cover;
     background-position: center;
     background-image: url(./image/black.png);
@@ -238,4 +239,3 @@ nav li{
     color: #060505;
 }
 
-    
