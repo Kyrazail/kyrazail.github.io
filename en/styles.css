@@ -239,3 +239,10 @@ nav li{
     color: #060505;
 }
 
+.justify {
+    text-align: justify;
+}
+
+.left {
+    text-align: left;
+}
